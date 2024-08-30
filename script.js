@@ -9,3 +9,4 @@ chatbotIcon.addEventListener('click', () => {
 chatbotClose.addEventListener('click', () => {
     chatbot.style.display = 'none';
 });
+

@@ -1,0 +1,176 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff; /* Text color remains white for contrast */
+    background: url('https://wallpaperaccess.com/full/3320075.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent background for better readability */
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between; /* Adjust to align logo to the left and nav to the right */
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin-left: 20px; /* Add some space from the left edge */
+    color: #ffd700; /* Changed logo color to yellow */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px; /* Increased space between nav items */
+}
+
+nav ul li a {
+    color: #ffd700;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* About Us Section */
+.about-us {
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 20px;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Contact Us Section */
+.contact-us {
+    padding: 60px 20px;
+    margin-bottom: 20px;
+}
+
+.contact-us h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-us .social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-us .social-icons a {
+    color: #fff;
+    font-size: 36px; /* Increased icon size */
+    margin: 0 15px;
+}
+
+.contact-us .social-icons a:hover {
+    color: #ffd700; /* Changed icon color on hover to yellow */
+}
+
+/* Footer Section */
+footer {
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Chatbot Icon */
+#chatbot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ffd700; /* Changed chatbot icon background color to yellow */
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1000;
+}
+
+/* Chatbot Window */
+#chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+    width: 300px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+#chatbot-header {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+
+#chatbot-body {
+    padding: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+#chatbot-header h3 {
+    margin: 0;
+}
+
+#chatbot-header span {
+    cursor: pointer;
+    font-size: 20px;
+}

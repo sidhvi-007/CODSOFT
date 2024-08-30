@@ -37,13 +37,13 @@ header {
 }
 
 nav {
-    margin-top: 10px;
+    margin-top: 0;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 40px;
+    gap: 30px; /* Adjusted gap to align items properly */
 }
 
 nav ul li a {
@@ -101,16 +101,16 @@ nav ul li a {
 
 .contact-us .social-icons a {
     color: #fff;
-    font-size: 36px;
-    margin: 0 15px;
+    font-size: 36px; 
+    margin: 0 10px; /* Adjusted margin for better alignment */
 }
 
 .contact-us .social-icons a:hover {
-    color: #ffd700;
+    color: #ffd700; 
 }
 
 footer {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8); 
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -120,7 +120,7 @@ footer {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: #ffd700;
+    background: #ffd700; 
     color: #fff;
     padding: 15px;
     border-radius: 50%;
@@ -131,8 +131,8 @@ footer {
 
 #chatbot {
     position: fixed;
-    bottom: 20px;
-    right: 80px;
+    bottom: 80px; /* Adjusted bottom value for better alignment */
+    right: 20px; /* Adjusted right value for better alignment */
     width: 300px;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
